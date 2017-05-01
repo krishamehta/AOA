@@ -47,4 +47,3 @@ void main()
  if(i!=v)
  printf("%d->%d,cost=%d\n",v,i,dist[i]);
 }
-OUTPUT
