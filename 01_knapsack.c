@@ -11,7 +11,7 @@ int knapsack(int W , int wt[] , int val[] , int n){
 		return 0;
 	else if (wt[n-1]>W)
 	{
-		return(W,wt,val,n-1);
+		return knapsack(W,wt,val,n-1);
 	}
 
 	else
